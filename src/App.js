@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
 import About from './components/About'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path='/about' component={About} />
+        <Route exact path='/contact' component={Contact} />
         <Header />
       {/* <header className="App-header">
       <Header />
