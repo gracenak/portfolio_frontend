@@ -7,6 +7,7 @@ import Header from './components/Header'
 import NavBar from './components/NavBar'
 import About from './components/About'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
+        <Route exact path='/projects' component={Projects} />
         <Header />
       {/* <header className="App-header">
       <Header />

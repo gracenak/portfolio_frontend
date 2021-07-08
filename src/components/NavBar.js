@@ -5,9 +5,10 @@ import '../styles/NavBar.css'
 const NavBar = () => {
     return(
         <div classname="link-wrapper">
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/'>Home</NavLink><br></br>
+            <NavLink to='/about'>About</NavLink><br></br>
+            <NavLink to='/contact'>Contact</NavLink><br></br>
+            <NavLink to='/projects'>Projects</NavLink><br></br>
         </div>
 
     )
