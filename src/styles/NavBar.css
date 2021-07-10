@@ -1,5 +1,10 @@
+.navigation{
+    text-align: center;
+
+}
 .link-wrapper {
     text-align: center;
     padding: 14px 16px;
     float: left;
+    display: block;
 }

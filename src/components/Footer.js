@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Footer.css'
 
 const Footer = () => {
     return(
-        <div classname= "footer">
+        <div className= "footer">
             © 2021 Grace Yuiko Nakano
         </div>
     )
