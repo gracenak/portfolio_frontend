@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Projects = () => {
+const Projects = ({projects}) => {
+
     return(
         <div className="projects-container">
             <div className="projects-scroller">

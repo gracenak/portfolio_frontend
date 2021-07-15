@@ -1,24 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import thunk from 'redux-thunk';
-import reportWebVitals from './reportWebVitals';
-
+import { Provider } from 'react-redux'
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import { composeWithDevTools } from 'redux-devtools-extension'
+import { BrowserRouter as Router } from 'react-router-dom'
+import manageProject from './reducers/manageProject';
 const composeEnhancers = composeWithDevTools({
-
-})
+  // Specify here name, actionsBlacklist, actionsCreators and other options
+});
 
 const store = createStore(
+  manageProject,
   composeEnhancers(
     applyMiddleware(thunk)
   )
 );
-
 
 ReactDOM.render(
   <Provider store={store}>
@@ -28,8 +26,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

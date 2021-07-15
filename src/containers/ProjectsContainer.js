@@ -14,7 +14,7 @@ class ProjectsContainer extends Component {
             <Switch>
                 <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
-                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/projects' render={(routerProps) => <Projects {...routerProps} projects={this.props.projects}  />} />
                 <Route exact path='/blogs' component={Blogs} />
             </Switch> 
             </div>
@@ -27,9 +27,9 @@ class ProjectsContainer extends Component {
 }
 
     const mapStateToProps = state => {
-        return {
-            projects: state.projects
-        }
+    return {
+        recipes: state.projects
     }
+}
 
 export default connect(mapStateToProps, { fetchProjects })(ProjectsContainer)
