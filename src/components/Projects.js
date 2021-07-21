@@ -1,6 +1,7 @@
 import React from 'react';
+import {bonVivant} from '../utils/projects'
 
-const Projects = ({projects}) => {
+const Projects = () => {
 
     return(
         <div className="projects-container">
@@ -9,6 +10,7 @@ const Projects = ({projects}) => {
                 <div className="image-container">
                 <div className="text-container">
                     <h2>Projects</h2>
+                    <p>{bonVivant.title}</p>
                 </div>
                 </div>
             </div>
