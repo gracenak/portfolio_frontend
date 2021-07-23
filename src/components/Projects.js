@@ -1,5 +1,6 @@
 import React from 'react';
-import {bonVivant} from '../utils/projects'
+import { bonVivant } from '../utils/projects'
+import Project from './Project';
 
 const Projects = () => {
 
@@ -10,7 +11,9 @@ const Projects = () => {
                 <div className="image-container">
                 <div className="text-container">
                     <h2>Projects</h2>
-                    <p>{bonVivant.title}</p>
+                    <Project project={bonVivant} />
+                    <p>Bon Vivant</p>
+                    <p>Visualize</p>
                 </div>
                 </div>
             </div>
