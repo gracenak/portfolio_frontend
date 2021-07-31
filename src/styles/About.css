@@ -4,10 +4,10 @@
 .headshot {
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
-    border-radius: 50%;
+    /* border-radius: 60%; */
 }
 
 
