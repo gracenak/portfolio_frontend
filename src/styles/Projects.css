@@ -1,0 +1,26 @@
+.projects-container {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.projects-scroller{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    overflow: scroll;
+    background-color: #fff;
+}
+.image-container, .content-container{
+    box-sizing: border-box;
+    flex-shrink: 0;
+    overflow: visible;
+
+}
