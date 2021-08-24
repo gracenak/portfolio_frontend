@@ -3,12 +3,12 @@ import './App.css';
 import { Component } from 'react';
 import SideBar from './components/SideBar'
 import Footer from './components/Footer'
-import Header from './components/Header'
+// import Header from './components/Header'
 // import About from './components/About'
 // import Contact from './components/Contact'
 // import Projects from './components/Projects'
 // import Blogs from './components/Blogs'
-import ProjectsContainer from './containers/ProjectsContainer';
+import PortfolioContainer from './containers/PortfolioContainer';
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       // <Router>
         <div className= "App">
-        <ProjectsContainer />
+        <PortfolioContainer />
         {/* <Switch>
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
@@ -25,7 +25,6 @@ class App extends Component {
           <Route exact path='/blogs' component={Blogs} /> */}
           
         
-          <Header />
           
   
         {/* </Switch>  */}

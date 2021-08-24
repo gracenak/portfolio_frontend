@@ -1,10 +1,11 @@
 import React from 'react'
 import Headshot from '../images/Headshot.jpg'
+import '../styles/About.css'
 
 class About extends React.Component {
     render() {
         return(
-            <div>
+            <div className="about">
                 <div className="headshot">
                     <img src={Headshot} alt="Grace Yuiko Nakano" />
                 </div>

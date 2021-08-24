@@ -17,9 +17,6 @@ class SideBar extends React.Component {
                     <NavLink to='/projects'>Projects</NavLink><br></br>
                     <NavLink to='/blogs' >Blogs</NavLink>
                 </div>
-                <div className="main">
-                    <h1>testing</h1>
-                </div>
             </div>
 
         )
