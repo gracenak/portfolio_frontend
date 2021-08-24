@@ -2,8 +2,10 @@ import React from 'react';
 // import { bonVivant } from '../utils/projects'
 import Project from './Project';
 import '../styles/Projects.css'
+import projects from '../utils/projects'
 
 const Projects = ({projects}) => {
+    console.log({projects})
     const card = projects && projects.map(project => 
         <Project key={project.title}
                  attributes={project}
