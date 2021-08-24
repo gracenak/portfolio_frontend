@@ -49,6 +49,7 @@ const Projects = ({projects}) => {
     <div class="w3-container w3-center">
       <p>Visualize</p>
       <h4>A collaborative vision board application that allows users to share their aspirations and motivations </h4>
+      <a>https://github.com/gracenak/visualize_frontend.git</a>
       <li>Built MVP SPA using JavaScript frontend and Rails API backend, demonstrating client server communication</li>
       <li>Employed PostgreSQL & serializers</li>  
       <li>Integrated ES6+, Object-oriented JavaScript classes & functions to encapsulate related data and behavior</li>
