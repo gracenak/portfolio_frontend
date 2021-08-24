@@ -42,6 +42,7 @@ const Projects = ({projects}) => {
     <div class="w3-container w3-center">
       <p>Bon Vivant</p>
       <h4>A collaborative recipe application that allows users to create, share, edit and review recipes</h4>
+      <a>https://github.com/gracenak/bon_vivant_frontend.git</a>
     </div>
 </div>
 
