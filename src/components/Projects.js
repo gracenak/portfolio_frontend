@@ -48,6 +48,10 @@ const Projects = ({projects}) => {
     <img src="https://media.giphy.com/media/tP7n5MgP1y5dC/giphy.gif" alt="visualize" width="300" height="300"  />
     <div class="w3-container w3-center">
       <p>Visualize</p>
+      <li>Built MVP SPA using JavaScript frontend and Rails API backend, demonstrating client server communication</li>
+      <li>Employed PostgreSQL & serializers</li>  
+      <li>Integrated ES6+, Object-oriented JavaScript classes & functions to encapsulate related data and behavior</li>
+      <li>Utilized Bootstrap & custom CSS to style frontend</li>
     </div>
 
   
