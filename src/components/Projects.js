@@ -1,9 +1,14 @@
 import React from 'react';
-import {bonVivant} from '../utils/projects'
+import projects from '../utils/projects'
 
-const Projects = () => {
+const Projects = ({projects}) => {
+
+    const card = projects && projects.map(project => {
+
+    })
 
     return(
+        {projects.map()}
         <div className="projects-container">
             <div className="projects-scroller">
             <div className="content-container">
@@ -13,7 +18,7 @@ const Projects = () => {
                     <p>{bonVivant.title}</p>
                 </div>
                 </div>
-            </div>
+            </div> 
             </div>
         </div>
     )
