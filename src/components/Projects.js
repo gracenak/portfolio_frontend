@@ -41,6 +41,7 @@ const Projects = ({projects}) => {
     <img src="https://i.pinimg.com/originals/3e/7a/08/3e7a08b130a6eb6ef1c923fbe13dbdf5.jpg" alt="bon-vivant" width="300" height="300"  />
     <div class="w3-container w3-center">
       <p>Bon Vivant</p>
+      <h4>A collaborative recipe application that allows users to create, share, edit and review recipes</h4>
     </div>
 </div>
 
