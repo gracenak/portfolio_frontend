@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div>
       <h1>Blogs</h1>
-      <h2>{blog1 && blog1.title}</h2>
+      <a href={blog1 && blog1.link}>{blog1 && blog1.title}</a>
     </div>
   );
 };
