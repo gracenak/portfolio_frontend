@@ -12,23 +12,6 @@ import {
 
 const Projects = () => {
   return (
-    // <div className="projects-container">
-    //      <div className="projects-scroller">
-    //          <div className="image-container">
-    //          <img src="https://i.pinimg.com/originals/3e/7a/08/3e7a08b130a6eb6ef1c923fbe13dbdf5.jpg" width = "300" height = "300" alt='Home'/>
-    //          <div className="content-container">
-    //          <div className="text-title">
-    //             <p>Bon Vivant</p>
-    //             <p>Visualize</p>
-    //          </div>
-
-    //              {card}
-    //              <h2>Projects</h2>
-
-    //          </div>
-    //      </div>
-    //      </div>
-    //  </div>
     <div className="w3-container">
       <h2>Projects</h2>
 
@@ -40,11 +23,10 @@ const Projects = () => {
           height="300"
         />
         <div className="w3-container w3-center">
-          <h2>{bonVivant && bonVivant.title}</h2>
+          <h2>{bonVivant.title}</h2>
+
           <h4>{bonVivant.description}</h4>
-          <a href="https://github.com/gracenak/bon_vivant_frontend.git">
-            {bonVivant && bonVivant.title}
-          </a>
+          <a href={bonVivant.link}>{bonVivant && bonVivant.title}</a>
         </div>
       </div>
 
@@ -56,18 +38,13 @@ const Projects = () => {
           height="300"
         />
         <div className="w3-container w3-center">
-          <p>Visualize</p>
+          <p>{visualize && visualize.title}</p>
           <h4>
             A collaborative vision board application that allows users to share
-            their aspirations and motivations{" "}
+            their aspirations and motivations{visualize && visualize.summary}
           </h4>
-          <a href="https://github.com/gracenak/visualize_frontend.git">
-            Visualize
-          </a>
-          <li>
-            Built MVP SPA using JavaScript frontend and Rails API backend,
-            demonstrating client server communication
-          </li>
+          <a href={visualize.link}>{visualize.title}</a>
+          <li>{visualize}</li>
           <li>Employed PostgreSQL & serializers</li>
           <li>
             Integrated ES6+, Object-oriented JavaScript classes & functions to
@@ -81,3 +58,21 @@ const Projects = () => {
 };
 
 export default Projects;
+
+// <div className="projects-container">
+//      <div className="projects-scroller">
+//          <div className="image-container">
+//          <img src="https://i.pinimg.com/originals/3e/7a/08/3e7a08b130a6eb6ef1c923fbe13dbdf5.jpg" width = "300" height = "300" alt='Home'/>
+//          <div className="content-container">
+//          <div className="text-title">
+//             <p>Bon Vivant</p>
+//             <p>Visualize</p>
+//          </div>
+
+//              {card}
+//              <h2>Projects</h2>
+
+//          </div>
+//      </div>
+//      </div>
+//  </div>
