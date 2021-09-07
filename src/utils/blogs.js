@@ -7,3 +7,8 @@ export const blog2 = {
   title: "Understanding the DOM and the Three Pillars",
   link: "https://gracenak.medium.com/understanding-dom-and-the-three-pillars-df6d7675c662",
 };
+
+export const blog3 = {
+  title: "Debugging ‘TypeError: Cannot read property ‘value’ of undefined’",
+  link: "https://gracenak.medium.com/debugging-typeerror-cannot-read-property-value-of-undefined-f1c729df00b6",
+};
