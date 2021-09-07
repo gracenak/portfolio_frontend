@@ -4,6 +4,6 @@ export const blog1 = {
 };
 
 export const blog2 = {
-  title: "Understandu=ing the DOM and the Three Pillars",
+  title: "Understanding the DOM and the Three Pillars",
   link: "https://gracenak.medium.com/understanding-dom-and-the-three-pillars-df6d7675c662",
 };
