@@ -23,12 +23,10 @@ const Projects = () => {
           height="300"
         />
         <div className="w3-container w3-center">
-          {bonVivant.map((b) => {
-            <h2>{b.title}</h2>;
-          })}
-
-          {/* <h4>{bonVivant.description}</h4>
-          <a href={bonVivant.link}>{bonVivant && bonVivant.title}</a>  */}
+          <h2>
+            <a href={bonVivant.link}>{bonVivant.title}</a>
+          </h2>
+          <h5>{bonVivant.description}</h5>
         </div>
       </div>
     </div>
