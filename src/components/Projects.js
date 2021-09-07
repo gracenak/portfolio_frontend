@@ -23,14 +23,20 @@ const Projects = () => {
           height="300"
         />
         <div className="w3-container w3-center">
-          <h2>{bonVivant.title}</h2>
+          {bonVivant.map((b) => {
+            <h2>{b.title}</h2>;
+          })}
 
-          <h4>{bonVivant.description}</h4>
-          <a href={bonVivant.link}>{bonVivant && bonVivant.title}</a>
+          {/* <h4>{bonVivant.description}</h4>
+          <a href={bonVivant.link}>{bonVivant && bonVivant.title}</a>  */}
         </div>
       </div>
+    </div>
+  );
+};
 
-      <div className="w3-card-4">
+{
+  /* <div className="w3-card-4">
         <img
           src="https://media.giphy.com/media/tP7n5MgP1y5dC/giphy.gif"
           alt="visualize"
@@ -53,9 +59,10 @@ const Projects = () => {
           <li>Utilized Bootstrap & custom CSS to style frontend</li>
         </div>
       </div>
-    </div>
-  );
-};
+    </div> */
+}
+//   );
+// };
 
 export default Projects;
 
